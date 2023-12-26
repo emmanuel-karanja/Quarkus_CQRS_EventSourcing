@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.GreetingResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.063 s <<< FAILURE! - in org.acme.GreetingResourceTest
+org.acme.GreetingResourceTest.testHelloEndpoint  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.RuntimeException: java.lang.RuntimeException: Failed to start quarkus
+Caused by: java.lang.RuntimeException: Failed to start quarkus
+Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: 
+Unable to obtain connection from database: FATAL: password authentication failed for user "postgres"
+----------------------------------------------------------------------------------------------------
+SQL State  : 28P01
+Error Code : 0
+Message    : FATAL: password authentication failed for user "postgres"
+
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+

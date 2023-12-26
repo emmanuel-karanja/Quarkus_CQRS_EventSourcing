@@ -1,0 +1,8 @@
+bankAccount\events\BankAccountCreatedEvent$BankAccountCreatedEventBuilder.class
+bankAccount\events\AddressUpdatedEvent$AddressUpdatedEventBuilder.class
+es\Event$EventBuilder.class
+bankAccount\events\EmailChangedEvent$EmailChangedEventBuilder.class
+bankAccount\domain\BankAccountDocument$BankAccountDocumentBuilder.class
+bankAccount\events\BalanceDepositedEvent$BalanceDepositedEventBuilder.class
+bankAccount\domain\BankAccountAggregate$BankAccountAggregateBuilder.class
+es\Snapshot$SnapshotBuilder.class
